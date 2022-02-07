@@ -15,6 +15,7 @@ text = "este es el resultado = "
 
 def pantalla(): #funcion primero
     print("   CALCULADORA  ")
+    print("De: cristopher baltazar robledo martínez")
     print(esp)
     print("1. sumas")
     print("2. restas")
@@ -177,7 +178,7 @@ def pantalla(): #funcion primero
             crifras_8()
 
         elif (va_c_s < 2):
-            print("no ay crifras tan bajas")
+            print("no ay crifras tan bajas, Intentelo de nuevo porfavor")
             print(esp)
             pantalla()
 
